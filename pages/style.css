@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/glossbgh.jpg");
+}
+
+.name{
+    font-size: 40px;
+    font-family: georgia;
+    color: beige;
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+
+.name-d{
+    text-shadow: 0 0 8px #000, 0 0 8px #000;
+}
+
+.aboutme{
+    width:720px;
+    color:#000;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 100px;
+    top: 270px;
+}
+
+.line{
+    position:relative;
+    top: 20px;
+    size: 10px;
+
+}
+
+.selfie{
+    position: relative;
+    left: 1200px;
+    top:40px;
+
+}
+
+.img{
+    border-radius: 50%;
+    max-width: 18%;
+    border: 10px solid beige;
+}
+
+.menu{
+    width: 20%;
+    position: relative;
+    left: 100px;
+    top:-50px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 20px 0;
+    position: relative;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: beige;
+    position: absolute;
+    transition:0.5s;
+    left: 0;
+    bottom: 0;
+}
+.menu ul li:hover::after{
+    width:37%;
+}
